@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastify-js/1.12.0/toastify.min.css" integrity="sha512-AtuM9K3UzZ0c1+kBNVh5m9+U1QkKc2cBxXTxPdXdlO3HgN9t1+5UyD1Bo8F3hwA3a5FRoyf5Pb/BxLx6fp+PZQ==" crossorigin="anonymous" />
+</head>
+<body>
+    <h1>Student Management</h1>
+    
+    <h2>Add Student</h2>
+    <form id="studentForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" required><br>
+        <label for="fname">Father's Name:</label>
+        <input type="text" id="fname" required><br>
+        <label for="age">Age:</label>
+        <input type="number" id="age" required><br>
+        <button type="button" id="addstd">Submit</button>
+    </form>
+
+    <h2>Student List</h2>
+    <div id="studentList"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastify-js/1.12.0/toastify.min.js" integrity="sha512-jEfr+kV57YYWx2Ajc6Rf3W1sU/pVMyVHLfTzQEh8TcQhNmHp4YdKr1sxPoC7Xyxz4un4o5j1XLx0jQZgMYz4Pg==" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
